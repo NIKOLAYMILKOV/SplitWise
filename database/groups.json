@@ -1,0 +1,1 @@
+[{"name":"gr","members":["user1","user2","ema"],"splits":[{"firstUser":"user1","secondUser":"user2","amount":15.0},{"firstUser":"user1","secondUser":"ema","amount":15.0},{"firstUser":"user2","secondUser":"ema","amount":0.0}]}]

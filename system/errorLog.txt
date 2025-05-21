@@ -1,0 +1,13 @@
+bg.sofia.uni.fmi.mjt.split.exception.server.UserRepositoryException: Could not load user database file
+	at bg.sofia.uni.fmi.mjt.split.repository.UserRepository.<init>(UserRepository.java:53)
+	at bg.sofia.uni.fmi.mjt.split.server.SplitWiseServer.start(SplitWiseServer.java:41)
+	at bg.sofia.uni.fmi.mjt.split.server.SplitWiseServer.main(SplitWiseServer.java:28)
+Caused by: java.nio.file.NoSuchFileException: ..\database\users.json
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:234)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.createFile(Files.java:658)
+	at bg.sofia.uni.fmi.mjt.split.repository.UserRepository.<init>(UserRepository.java:46)
+	... 2 more
