@@ -32,10 +32,6 @@ Split(NotSo)Wise allows users to register, log in, manage friendships and groups
 ### 🧾 Payment History
 - Users can view their transaction history (saved server-side)
 
-### 🌍 Currency Conversion (Bonus)
-- `switch-currency <CURRENCY_CODE>` – Convert all balances into another currency (e.g., EUR, USD)
-- Fetches real-time exchange rates via HTTP API
-
 ## 🖥️ Usage
 
 Commands are entered via a console-based client interface.
